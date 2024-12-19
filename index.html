@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luizinho e Cia Buffet</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000; /* Fundo preto */
+        }
+
+        header {
+            background-color: #000000; /* Fundo preto */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #d4af37; /* Cor dourada */
+            font-family: serif; /* Fonte serifada */
+        }
+
+        nav {
+            background-color: #000000; /* Fundo preto */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #d4af37; /* Cor dourada */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            color: #ffffff; /* Textos em branco */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image-slider {
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 0.2px auto; /* Reduzido o espaço superior */
+            padding: 0.2px 0; /* Adicionada margem interna para centralizar */
+            width: 100%; /* Garante que ocupa toda a largura da tela */
+            box-sizing: border-box;
+        }
+
+        .image-slider img {
+            width: 200px;
+            height: auto;
+            display: inline-block;
+            animation: scroll 20s linear infinite; /* Animação infinita, mais lenta */
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luizinho e Cia Buffet</h1>
+    </header>
+    <nav>
+        <a href="cardapio.html">Cardápio</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="alugueis.html">Alugueis</a>
+    </nav>
+    <section>
+        <h2>Bem-vindo ao nosso site!</h2>
+        <p>Bem-vindo ao Luizinho e Cia Buffet! Oferecemos uma experiência única para eventos especiais, com cardápios personalizados, serviços de alta qualidade e aluguéis para completar sua celebração. Entre em contato conosco!</p>
+    </section>
+    <section class="image-slider">
+        <!-- Substitua os links abaixo pelas URLs das suas imagens -->
+        <img src="Fotos/foto1.jpg" alt="Imagem 1">
+        <img src="Fotos/foto2.jpg" alt="Imagem 2">
+        <img src="Fotos/foto3.jpg" alt="Imagem 3">
+        <img src="Fotos/foto4.jpg" alt="Imagem 4">
+        <img src="Fotos/foto5.jpg" alt="Imagem 5">
+        <img src="Fotos/foto6.jpg" alt="Imagem 6">
+        <img src="Fotos/foto7.jpg" alt="Imagem 7">
+        <img src="Fotos/foto8.jpg" alt="Imagem 8">
+        <img src="Fotos/foto9.jpg" alt="Imagem 9">
+        <img src="Fotos/foto10.jpg" alt="Imagem 10">
+
+        <p>Oferecemos serviços completos para que seu evento seja inesquecível!</p>
+
+    </section>
+</body>
+</html>
